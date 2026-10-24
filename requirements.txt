@@ -1,0 +1,12 @@
+# 시계열 모델 (논문 4.3.1 기재 환경: Python 3.10, CUDA 11.2, cuDNN 8.1)
+tensorflow==2.10.0
+numpy==1.23.5
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# 감성 분석 (klue/bert-base fine-tuning, config.json 기준)
+transformers==4.53.1
+torch>=2.0
+tqdm

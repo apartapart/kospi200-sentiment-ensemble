@@ -1,0 +1,21 @@
+# 빅카인즈 뉴스 원문 (저작권) - 공개 금지
+data/raw/
+**/df_first_*.csv
+**/df_second_*.csv
+**/*_sentiment_result.csv
+**/NewsResult_*.csv
+**/*1군.csv
+**/*2군.csv
+
+# 모델 가중치
+*.safetensors
+*.bin
+*.h5
+*.keras
+kobert_model/
+
+# 기타
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
